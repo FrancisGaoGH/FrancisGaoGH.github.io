@@ -28,7 +28,7 @@ const appRoutes: Routes = [
     redirectTo: '/products',
     pathMatch: 'full'
   },
-  { path: '**', component: BlankpageComponent }
+  { path: '**', component: ProductsComponent }
 ];
 
 
